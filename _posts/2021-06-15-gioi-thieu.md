@@ -4,6 +4,7 @@ title:  "Giới thiệu"
 author: "ICON Club"
 comments: false
 tags:
+categories: Chung
 excerpt_separator: <!--more-->
 sticky: true
 hidden: true
