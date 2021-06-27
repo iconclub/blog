@@ -7,7 +7,7 @@ url:            "https://iconclub.github.io"
 
 # Author
 author:
-  name:         ICON CLub
+  name:         ICON Club
   url:          https://iconclub.github.io
   email:        icon.acaclub@it.tdt.edu.vn
 
@@ -36,4 +36,4 @@ paginate:       5
 exclude: [ Gemfile, Gemfile.lock, icon.gemspec ]
 
 # Disqus (Set to your disqus id)
-disqus:         jekyll-tale
+# disqus:         jekyll-tale
