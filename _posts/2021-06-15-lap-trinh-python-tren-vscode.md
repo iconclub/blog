@@ -63,14 +63,14 @@ Dùng khá hay tuy nhiên bị giới hạn thời gian sử dụng. Đối vớ
 Linting sẽ thống kê lỗi code của các bạn, có thể là lỗi cú pháp, lỗi logic, thậm chí là format code.
 Có rất nhiều linting mà bạn có thể tìm hiểu như Pylint, pycodestyle, Flake8, mypy, pydocstyle, prospector và pylama.
 
-<video id="python-linting-video" src="https://az754404.vo.msecnd.net/public/python-linting.mp4" poster="/images/python_python-linting-placeholder.png" autoplay="" loop="" controls="" muted=""></video>
+<video id="python-linting-video" src="https://az754404.vo.msecnd.net/public/python-linting.mp4" autoplay="" loop="" controls="" muted=""></video>
 
 ## Debugging
 
 Đến đây thì mình chỉ muốn nói một câu, đừng debug bằng `print` nữa. Việc của bạn bây giờ chỉ là đặt breakpoint, và dùng debugger để kiểm tra và dò lỗi.
 Tin mình đi, bạn sẽ cần đến nó ở bài toán hóc búa đấy. Mình sẽ có một bài viết nữa để trình bày sâu hơn về Debug trên VSCode ở nhiều ngôn ngữ.
 
-<video id="python-debugging-video" src="https://az754404.vo.msecnd.net/public/python-debugging.mp4" poster="/images/python_python-debugging-placeholder.png" autoplay="" loop="" controls="" muted=""></video>
+<video id="python-debugging-video" src="https://az754404.vo.msecnd.net/public/python-debugging.mp4" autoplay="" loop="" controls="" muted=""></video>
 
 ## Environments
 
