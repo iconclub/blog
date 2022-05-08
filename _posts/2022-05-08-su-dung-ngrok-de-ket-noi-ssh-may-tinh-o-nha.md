@@ -24,15 +24,15 @@ Việc sử dụng ngrok rất đơn giản, mà không cần phải cấu hình
 
 ## Chuẩn bị
 
-Cài đặt ngrok: https://ngrok.com
+Cài đặt ngrok: [https://ngrok.com](https://ngrok.com)
 
-Tạo tài khoản ngrok (nếu chưa có): https://dashboard.ngrok.com/signup
+Tạo tài khoản ngrok (nếu chưa có): [https://dashboard.ngrok.com/signup](https://dashboard.ngrok.com/signup)
 
 ## Cấu hình trên máy 1
 
 Sau khi đăng nhập trên website và có authtoken, kết nối với ngrok trên máy 1 hay máy cần điều khiển:
 
-Hướng dẫn từ chính ngrok, có thể tham khảo ở đây: https://dashboard.ngrok.com/get-started/setup
+Hướng dẫn từ chính ngrok, có thể tham khảo ở đây: [https://dashboard.ngrok.com/get-started/setup](https://dashboard.ngrok.com/get-started/setup)
 
 ```bash
 ngrok config add-authtoken {authtoken}
@@ -64,7 +64,7 @@ Vậy là ta đã kết nối SSH tới máy 1 thành công.
 
 ## Sử dụng trên VSCode
 
-Hướng dẫn từ VSCode: https://code.visualstudio.com/docs/remote/ssh
+Hướng dẫn từ VSCode: [https://code.visualstudio.com/docs/remote/ssh](https://code.visualstudio.com/docs/remote/ssh)
 
 Nếu đã kết nối SSH máy 1 từ máy 2 thành công, thì việc cấu hình trên VSCode cũng sẽ rất đơn giản. Cấu hình như sau:
 
