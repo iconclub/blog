@@ -24,15 +24,15 @@ Việc sử dụng ngrok rất đơn giản, mà không cần phải cấu hình
 
 ## Chuẩn bị
 
-Cài đặt ngrok: https://ngrok.com
+Cài đặt ngrok: [https://ngrok.com](https://ngrok.com)
 
-Tạo tài khoản ngrok (nếu chưa có): https://dashboard.ngrok.com/signup
+Tạo tài khoản ngrok (nếu chưa có): [https://dashboard.ngrok.com/signup](https://dashboard.ngrok.com/signup)
 
 ## Cấu hình trên máy 1
 
 Sau khi đăng nhập trên website và có authtoken, kết nối với ngrok trên máy 1 hay máy cần điều khiển:
 
-Hướng dẫn từ chính ngrok, có thể tham khảo ở đây: https://dashboard.ngrok.com/get-started/setup
+Hướng dẫn từ chính ngrok, có thể tham khảo ở đây: [https://dashboard.ngrok.com/get-started/setup](https://dashboard.ngrok.com/get-started/setup)
 
 ```bash
 ngrok config add-authtoken {authtoken}
@@ -64,7 +64,7 @@ Vậy là ta đã kết nối SSH tới máy 1 thành công.
 
 ## Sử dụng trên VSCode
 
-Hướng dẫn từ VSCode: https://code.visualstudio.com/docs/remote/ssh
+Hướng dẫn từ VSCode: [https://code.visualstudio.com/docs/remote/ssh](https://code.visualstudio.com/docs/remote/ssh)
 
 Nếu đã kết nối SSH máy 1 từ máy 2 thành công, thì việc cấu hình trên VSCode cũng sẽ rất đơn giản. Cấu hình như sau:
 
@@ -84,13 +84,14 @@ Việc còn lại là dùng VSCode để remote, như vậy việc trải nghi�
 ## Tổng kết
 
 Như vậy là mình đã hướng dẫn xong mọi người cách có thể điều khiển SSH máy tính ở nhà, từ một máy tính bất kì,
-có thể là máy tính trên thư viện trường, máy tính trên công ty, mà không phải lo vấn đề sao chép mã nguồn, dữ liệu.
+có thể là máy tính trên thư viện trường, máy tính trên công ty, máy tính của người yêu 😝 mà không phải lo vấn đề copy qua lại mã nguồn, dữ liệu.
+
+Ưu điểm của cách này là có thể tạo một địa chỉ public để có thể kết nối SSH dễ dàng mà không cần phải cấu hình phức tạp trên router.
 
 Tuy nhiên vẫn có một số nhược điểm là máy tính ở nhà phải luôn bật, hoặc ở chế độ Wake on LAN.
 Nếu nhà mất điện, hay mất kết nối internet thì sẽ không kết nối được.
-Phải chuẩn bị tạo tunnel ở nhà trước, sau đó thì mới kết nối được, cách thì thì các bạn có thể dùng `crontab` để tạo tunnel mỗi khi máy bật để đỡ mất công.
+Phải chuẩn bị tạo tunnel ở nhà trước, sau đó thì mới kết nối được, vấn đề này thì các bạn có thể dùng `crontab` để tạo tunnel mỗi khi máy bật để đỡ mất công.
 
-Ở bài viết này có thể thấy ngrok không chỉ sử dụng để đưa nhưng website, web service từ máy local lên internet, mà còn có thể sử dụng để kết nối SSH mà không cần cấu hình port foward phức tạp ở router.
 Nếu thấy bài viết có ích, hãy share cho mọi người hoặc note lại khi cần nhé.
 
 [@hieunguyen1053](https://github.com/hieunguyen1053)
